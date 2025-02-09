@@ -4,7 +4,7 @@
 Progetto di gestione dei dati riguardante le guide turistiche di Roma, realizzato ai fini dell'esame del corso di [Digital Humanities e Data Management per i Beni Culturali](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386).
 
 ## Fonti
-[Angeli Diego, Le chiese di Roma. Guida storica e artistica delle basiliche, chiese e oratorii della città di Roma, Società Editrice Dante Alighieri, Roma, 1902](https://archive.org/details/lechiesediromagu00ange/page/n1/mode/2up?ref=ol)
+[Angeli D. (1902) *Le chiese di Roma. Guida storica e artistica delle basiliche, chiese e oratorii della città di Roma*, Roma, Società Editrice Dante Alighieri](https://archive.org/details/lechiesediromagu00ange/page/n1/mode/2up?ref=ol)
 
 ## Metodi e strumenti
 * GitHub
