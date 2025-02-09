@@ -5,10 +5,6 @@
 | v0.1.0   | 2025-02-09 | Creazione del documento |
 
 
-## Autori
-
-- Giulia Guidarelli (<https://orcid.org/0009-0008-4489-3978>), Università di Bologna; `Data curation`, `Formal analysis`, `Validation`, `Visualization`
-
 
 ## Introduzione
 Il progetto si propone come uno studio delle 
@@ -16,7 +12,7 @@ Il progetto si propone come uno studio delle
 
 ## Descrizione dei dati
 
-I dati raccolti nel progetto provengono da un'unica fonte: una guida delle chiese di Roma, opera risalente agli inizi del XX secolo, disponibile in pdf sottoforma di scansione digitale del libro fisico. 
+I dati raccolti nel progetto provengono da un'unica fonte: la scansione digitale di una guida delle chiese di Roma risalente agli inizi del XX secolo. 
 Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare elementi di interesse per il settore archivistico-bibliotecario. 
 
 
