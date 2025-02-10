@@ -22,7 +22,8 @@ Il progetto si propone come uno **studio degli elementi di interesse archivistic
 ## Descrizione dei dati
 
 I dati raccolti nel progetto provengono da un'unica fonte: la scansione digitale di una guida delle chiese di Roma risalente agli inizi del XX secolo. 
-Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare elementi di interesse per il settore archivistico-librario. 
+* Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare quanti e quali siano i riferimenti relativi ad archivi, biblioteche, codici, documenti e persone legate al settore oggetto d'interesse.
+* Una volta individuati tramite l'utilizzo di un data stewart, i dati esistenti saranno estratti sotto forma di immagini.
 
 
 ## Documentazione e qualità dei dati
