@@ -16,7 +16,7 @@
 
 
 ## Introduzione
-Il progetto si propone come uno **studio degli elementi di interesse archivistico-librario** contenuti nel testo [Tani A. D. (1922) *Le chiese di Roma: guida storico-artistica. Chiese stazionali*, Edizioni d'arte E. Celanza, Torino](https://archive.org/details/lechiesediromagu00tani/page/n9/mode/2up). L'intento complessivo è quello di estrarre dal testo puro dei dati il più possibile allineati con le principali discipline oggetto del corso di studi LM-05, orientando la ricerca verso uno specifico settore delle scienze umanistiche. In particolare, l'idea è quella di ottenere informazioni strutturate sulle vicende conservative del patrimonio archivistico-librario citato nelle fonti prese in considerazione.
+Il progetto si propone come uno **studio degli elementi di interesse archivistico-librario** contenuti nel testo [Tani A. D. (1922) *Le chiese di Roma: guida storico-artistica. Chiese stazionali*, Edizioni d'arte E. Celanza, Torino](https://archive.org/details/lechiesediromagu00tani/page/n9/mode/2up). L'intento complessivo è quello di estrarre dal testo puro dei dati il più possibile allineati con le principali discipline oggetto del corso di studi LM-05, orientando la ricerca verso uno specifico settore delle scienze umanistiche. In particolare, l'idea è quella di **ottenere informazioni strutturate sulle vicende conservative del patrimonio archivistico-librario citato** nella fonte prese in considerazione.
 
 
 ## Descrizione dei dati
