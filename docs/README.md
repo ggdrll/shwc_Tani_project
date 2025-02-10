@@ -12,7 +12,7 @@
 ## Introduzione
 
 Il progetto nasce come prova finale dell'[insegnamento di Digital Humanities e Data Management per i Beni Culturali](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386). Si è scelto di procedere innanzitutto attraverso un'analisi quantitativa e qualitativa dei dati forniti dal docente, allo scopo di individuare in essi elementi di interesse archivistico-librario. Una volta presi in considerazione tali elementi, si è voluto procedere con una modellazione dei dati in forma tabellare, così da favorirne la comprensione e la pulizia. Infine, si è ritenuto utile modellare in RDF i dati ottenuti, per garantirne l'interoperabilità e la riusabilità. 
-L'intento complessivo è quello di estrarre dal testo puro dei dati il più possibile allineati con le principali discipline oggetto del corso di studi LM-05, orientando la ricerca verso uno specifico settore delle scienze umanistiche. In particolare, l'idea è quella di ottenere informazioni strutturate sulle vicende conservative del patrimonio archivistico-librario citato nelle fonti prese in considerazione.
+L'intento complessivo è quello di estrarre dal testo puro dei dati il più possibile allineati con le principali discipline oggetto del corso di studi LM-05, orientando la ricerca verso uno specifico settore delle scienze umanistiche. In particolare, l'idea è quella di **ottenere informazioni strutturate sulle vicende conservative del patrimonio archivistico-librario citato nelle fonti prese in considerazione**.
 
 
 ## Pianificazione
