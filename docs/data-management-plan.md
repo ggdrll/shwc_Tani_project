@@ -5,15 +5,24 @@
 | v0.1.0   | 2025-02-09 | Creazione del documento |
 
 
+## Sommario esecutivo
+
+1. Analisi quantitativa e qualitativa dei dati raccolti attraverso [Voyant Tools](https://voyant-tools.org/). 
+2. Estrazione dei dati relativi al patrimonio archivistico-librario, visbile attraverso immagini delle visualizzazioni generate.
+3. Tabellazione dei dati in [Excel](https://www.microsoft.com/it-it/microsoft-365/excel?market=it).
+4. Conversione dei dati in formato csv.
+5. Pulizia dei dati tramite [Openrefine](https://openrefine.org/).
+6. Modellazione in RDF attraverso l'utilizzo di ontologie esistenti.
+
 
 ## Introduzione
-Il progetto si propone come uno studio delle 
+Il progetto si propone come uno **studio degli elementi di interesse archivistico-librario** contenuti nel testo [Tani A. D. (1922) *Le chiese di Roma: guida storico-artistica. Chiese stazionali*, Edizioni d'arte E. Celanza, Torino](https://archive.org/details/lechiesediromagu00tani/page/n9/mode/2up). L'intento complessivo è quello di estrarre dal testo puro dei dati il più possibile allineati con le principali discipline oggetto del corso di studi LM-05, orientando la ricerca verso uno specifico settore delle scienze umanistiche. In particolare, l'idea è quella di ottenere informazioni strutturate sulle vicende conservative del patrimonio archivistico-librario citato nelle fonti prese in considerazione.
 
 
 ## Descrizione dei dati
 
 I dati raccolti nel progetto provengono da un'unica fonte: la scansione digitale di una guida delle chiese di Roma risalente agli inizi del XX secolo. 
-Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare elementi di interesse per il settore archivistico-bibliotecario. 
+Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare elementi di interesse per il settore archivistico-librario. 
 
 
 ## Documentazione e qualità dei dati
