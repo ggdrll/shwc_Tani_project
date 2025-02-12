@@ -12,7 +12,7 @@ Progetto di gestione dei dati riguardante le guide turistiche di Roma, realizzat
 * [Voyant Tools](https://voyant-tools.org/)
 * [Microsoft Excel](https://www.microsoft.com/it-it/microsoft-365/excel?market=it)
 * [Openrefine](https://openrefine.org/)
-
+* RDF in Turtle
 
 ## Credits
 Giulia Guidarelli (https://orcid.org/0009-0008-4489-3978), Università di Bologna
@@ -21,4 +21,7 @@ Giulia Guidarelli (https://orcid.org/0009-0008-4489-3978), Università di Bologn
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
 
 ## Changelog
-2025-02-09: creazione README.md
+2025-02-09: creazione repository e cartelle *data* e *docs*
+2025-02-12: ultimo commit nella sottocartella *viz*
+2025-02-
+2025-02-
