@@ -8,4 +8,4 @@ La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [
   * bubblelines_IT_art: la visualizzazione di frequenza e distribuzione delle prime **10 parole inerenti a elementi artistici e architettonici individuate dalla sottoscritta** entro le 50 parole più utilizzate nel documento;
   * bubblelines_IT_LA: la visualizzazione di frequenza e distribuzione delle **parole inerenti a elementi archivistico-librari, selezionate dalla sottoscritta**.
 
-    L'elenco delle stopwords integrate personalmente a quelle rilevate dallo strumento d'analisi è presente nella sottocartella stopwords.
+    L'elenco delle stopwords integrate personalmente a quelle rilevate dallo strumento d'analisi è presente nella sottocartella [stopwords](https://github.com/ggdrll/esame/tree/main/docs/stopwords).
