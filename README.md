@@ -21,7 +21,7 @@ Giulia Guidarelli (https://orcid.org/0009-0008-4489-3978), Università di Bologn
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
 
 ## Changelog
-2025-02-09: creazione repository e cartelle *data* e *docs*
-2025-02-12: ultimo commit nella sottocartella *viz*
-2025-02-
+* 2025-02-09: creazione repository e cartelle *data* e *docs*
+* 2025-02-12: ultimo commit nella sottocartella *viz*
+* 2025-02-
 2025-02-
