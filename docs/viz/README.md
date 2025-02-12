@@ -1,12 +1,24 @@
 # Visualizzazione dei dati
 
+## Immagini
+
 La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [Voyant Tools](https://voyant-tools.org/) in formato `png`. In particolare, contiene:
   * [og_cirrus](https://github.com/ggdrll/esame/blob/main/docs/viz/og_cirrus.png): la visualizzazione in word cloud delle parole più frequenti nel documento, **senza modifiche alle stopwords**;
   * [og_bubblelines_rows](https://github.com/ggdrll/esame/blob/main/docs/viz/og_bubblelines_rows.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **senza modifiche alle stopwords**;
   * [og_bubbleline_IT](https://github.com/ggdrll/esame/blob/main/docs/viz/og_bubblelines_IT.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana**;
   * [bubblelines_IT_rows](https://github.com/ggdrll/esame/blob/main/docs/viz/bubbleline_IT_rows.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana e altre individuate dalla sottoscritta**;
-  * bubblelines_IT_art: la visualizzazione di frequenza e distribuzione delle prime **10 parole inerenti a elementi artistici e architettonici integrate dalla sottoscritta** entro le 50 parole più utilizzate nel documento;
-  * bubblelines_IT_LA: la visualizzazione di frequenza e distribuzione delle **parole inerenti a elementi archivistico-librari, selezionate dalla sottoscritta**.
+  * [bubblelines_IT_art](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_IT_art.png): la visualizzazione di frequenza e distribuzione delle prime **10 parole inerenti a elementi artistici e architettonici integrate dalla sottoscritta** entro le 50 parole più utilizzate nel documento;
+  * [bubblelines_IT_LA](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_IT_AL.png): la visualizzazione di frequenza e distribuzione delle **parole inerenti a elementi archivistico-librari, selezionate dalla sottoscritta**.
+
+
+## Tabelle
+
+Ad ogni immagine in visualizzazione [Bubbleline](https://voyant-tools.org/docs/#!/guide/bubblelines) è associato, in forma tabellare:
+* l'elenco delle parole rappresentate;
+* il numero che indica la frequenza di ciascuna all'interno del testo.
+
+
+# Stopwords
 
 L'*elenco delle stopwords integrate* personalmente a quelle rilevate dallo strumento d'analisi è il seguente (rilevate entro le 100 parole più frequenti):
 1) s
