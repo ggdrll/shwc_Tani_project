@@ -2,7 +2,7 @@
 
 ## Immagini
 
-La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [Voyant Tools](https://voyant-tools.org/) in formato `png`. In particolare, contiene:
+La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [Voyant Tools](https://voyant-tools.org/) in formato `.png`. In particolare, contiene:
   * [og_cirrus](https://github.com/ggdrll/esame/blob/main/docs/viz/og_cirrus.png): la visualizzazione in word cloud delle parole più frequenti nel documento, **senza modifiche alle stopwords**;
   * [og_bubblelines_rows](https://github.com/ggdrll/esame/blob/main/docs/viz/og_bubblelines_rows.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **senza modifiche alle stopwords**;
   * [og_bubbleline_IT](https://github.com/ggdrll/esame/blob/main/docs/viz/og_bubblelines_IT.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana**;
@@ -13,7 +13,7 @@ La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [
 
 ## Tabelle
 
-Ad ogni immagine in visualizzazione [Bubbleline](https://voyant-tools.org/docs/#!/guide/bubblelines) corrisponde, con lo stesso nome, un file in formato `csv`, contenente:
+Ad ogni immagine in visualizzazione [Bubbleline](https://voyant-tools.org/docs/#!/guide/bubblelines) corrisponde, con lo stesso nome, un file in formato `.csv`, contenente:
 * l'elenco delle parole rappresentate;
 * il numero che indica la frequenza di ciascuna all'interno del testo.
 
