@@ -1,4 +1,4 @@
-# Descrizione
+# Visualizzazione dei dati
 
 La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [Voyant Tools](https://voyant-tools.org/) in formato `png`. In particolare, contiene:
   * [og_cirrus](https://github.com/ggdrll/esame/blob/main/docs/viz/og_cirrus.png): la visualizzazione in word cloud delle parole più frequenti nel documento, **senza modifiche alle stopwords**;
