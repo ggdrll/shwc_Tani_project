@@ -18,7 +18,7 @@ Ad ogni immagine in visualizzazione [Bubbleline](https://voyant-tools.org/docs/#
 * il numero che indica la frequenza di ciascuna all'interno del testo.
 
 
-# Stopwords
+## Stopwords
 
 L'*elenco delle stopwords integrate* personalmente a quelle rilevate dallo strumento d'analisi è il seguente (rilevate entro le 100 parole più frequenti):
 1) s
