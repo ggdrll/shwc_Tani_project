@@ -8,7 +8,7 @@ La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [
   * bubblelines_IT_art: la visualizzazione di frequenza e distribuzione delle prime **10 parole inerenti a elementi artistici e architettonici integrate dalla sottoscritta** entro le 50 parole più utilizzate nel documento;
   * bubblelines_IT_LA: la visualizzazione di frequenza e distribuzione delle **parole inerenti a elementi archivistico-librari, selezionate dalla sottoscritta**.
 
-    L'*elenco delle stopwords integrate* personalmente a quelle rilevate dallo strumento d'analisi è il seguente (rilevate entro le 100 parole più frequenti):
+L'*elenco delle stopwords integrate* personalmente a quelle rilevate dallo strumento d'analisi è il seguente (rilevate entro le 100 parole più frequenti):
 1) s
 2) é
 3) roma
