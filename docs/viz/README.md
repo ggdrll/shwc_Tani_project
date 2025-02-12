@@ -1,6 +1,6 @@
 # Descrizione
 
-La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [Voyant Tools](https://voyant-tools.org/) in formato `png`. In particolare, contiente:
+La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [Voyant Tools](https://voyant-tools.org/) in formato `png`. In particolare, contiene:
   * og_cirrus: la visualizzazione in word cloud delle parole più frequenti nel documento, **senza modifiche alle stopwords**;
   * og_bubblelines_rows: la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **senza modifiche alle stopwords**;
   * og_bubbleline_IT: la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana**;
