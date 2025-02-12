@@ -3,17 +3,17 @@
 ## Immagini
 
 La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [Voyant Tools](https://voyant-tools.org/) in formato `.png`. In particolare, contiene:
-  * [og_cirrus](https://github.com/ggdrll/esame/blob/main/docs/viz/og_cirrus.png): la visualizzazione in word cloud delle parole più frequenti nel documento, **senza modifiche alle stopwords**;
+  * [og_cirrus](https://github.com/ggdrll/esame/blob/main/docs/viz/og_cirrus.png): la visualizzazione word cloud delle parole più frequenti nel documento, **senza modifiche alle stopwords**;
   * [og_bubblelines_rows](https://github.com/ggdrll/esame/blob/main/docs/viz/og_bubblelines_rows.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **senza modifiche alle stopwords**;
   * [og_bubbleline_IT](https://github.com/ggdrll/esame/blob/main/docs/viz/og_bubblelines_IT.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana**;
-  * [bubblelines_IT_rows](https://github.com/ggdrll/esame/blob/main/docs/viz/bubbleline_IT_rows.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana e altre individuate dalla sottoscritta**;
-  * [bubblelines_IT_art](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_IT_art.png): la visualizzazione di frequenza e distribuzione delle prime **10 parole inerenti a elementi artistici e architettonici integrate dalla sottoscritta** entro le 50 parole più utilizzate nel documento;
-  * [bubblelines_IT_LA](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_IT_AL.png): la visualizzazione di frequenza e distribuzione delle **parole inerenti a elementi archivistico-librari, selezionate dalla sottoscritta**.
+  * [bubblelines_IT_rows](https://github.com/ggdrll/esame/blob/main/docs/viz/bubbleline_IT_rows.png): la visualizzazione di frequenza e distribuzione delle 5 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana e altre integrate dalla sottoscritta**;
+  * [bubblelines_art](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_IT_art.png): la visualizzazione di frequenza e distribuzione delle prime **10 parole inerenti a elementi artistici e architettonici individuate dalla sottoscritta** entro le 50 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana e altre integrate dalla sottoscritta**;
+  * [bubblelines_archives-libraries](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_IT_AL.png): la visualizzazione di frequenza e distribuzione delle **parole inerenti a elementi archivistico-librari, selezionate dalla sottoscritta**.
 
 
 ## Tabelle
 
-Ad ogni immagine in visualizzazione [Bubbleline](https://voyant-tools.org/docs/#!/guide/bubblelines) corrisponde, con lo stesso nome, un file in formato `.csv`, contenente:
+All'interno del file bubblelines_tabs sono riportati dei fogli di lavoro in formato `.xlsx` corrispondenti (con lo stesso nome) ad ogni immagine in visualizzazione [Bubblelines](https://voyant-tools.org/docs/#!/guide/bubblelines). Ciascun foglio di lavoro contiene:
 * l'elenco delle parole rappresentate;
 * il numero che indica la frequenza di ciascuna all'interno del testo.
 
