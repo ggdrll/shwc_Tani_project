@@ -13,7 +13,7 @@ La cartella contiene le visualizzazioni dei dati estratti tramite data stewart [
 
 ## Tabelle
 
-Ad ogni immagine in visualizzazione [Bubbleline](https://voyant-tools.org/docs/#!/guide/bubblelines) è associato, in forma tabellare:
+Ad ogni immagine in visualizzazione [Bubbleline](https://voyant-tools.org/docs/#!/guide/bubblelines) corrisponde, con lo stesso nome, un file in formato `csv`, contenente:
 * l'elenco delle parole rappresentate;
 * il numero che indica la frequenza di ciascuna all'interno del testo.
 
