@@ -4,7 +4,7 @@
 ## Sommario esecutivo
 
 1. Analisi quantitativa e qualitativa dei dati raccolti attraverso [Voyant Tools](https://voyant-tools.org/).
-2. Estrazione dei dati relativi al patrimonio archivistico-librario, visbile attraverso immagini delle visualizzazioni generate.
+2. Estrazione dei dati relativi al patrimonio archivistico-librario.
 3. Tabellazione dei dati in [Excel](https://www.microsoft.com/it-it/microsoft-365/excel?market=it).
 4. Conversione dei dati in formato `.csv`.
 5. Pulizia dei dati tramite [Openrefine](https://openrefine.org/).
@@ -13,15 +13,26 @@
 
 ## Introduzione
 
-Il progetto si propone come uno **studio degli elementi di interesse archivistico-librario** contenuti nel testo [Tani A. D. (1922) *Le chiese di Roma: guida storico-artistica. Chiese stazionali*, Edizioni d'arte E. Celanza, Torino](https://archive.org/details/lechiesediromagu00tani/page/n9/mode/2up). L'intento complessivo è quello di estrarre dal testo puro dei dati il più possibile allineati con le principali discipline oggetto del corso di studi LM-05, orientando la ricerca verso uno specifico settore delle scienze umanistiche. In particolare, l'idea è quella di **ottenere informazioni strutturate sulle vicende conservative del patrimonio archivistico-librario citato** nella fonte presa in considerazione.
+Il progetto si propone come uno **studio degli elementi di interesse archivistico-librario** contenuti nel testo [Tani A. D. (1922) *Le chiese di Roma: guida storico-artistica. Chiese stazionali*, Edizioni d'arte E. Celanza, Torino](https://archive.org/details/lechiesediromagu00tani/page/n9/mode/2up). 
+L'intento complessivo è quello di estrarre dal testo puro dei dati il più possibile allineati con le principali discipline oggetto del corso di studi LM-05, orientando la ricerca verso uno specifico settore delle scienze umanistiche. In particolare, l'idea è quella di **ottenere informazioni strutturate sulle vicende conservative del patrimonio archivistico-librario citato** nella fonte presa in considerazione.
 
 
 ## Descrizione dei dati
 
-I dati raccolti nel progetto provengono da un'unica fonte: la scansione digitale in formato `.txt` di una guida delle chiese di Roma risalente agli inizi del XX secolo. 
-* Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare quanti e quali siano i riferimenti relativi ad archivi, biblioteche, codici, libri, documenti e persone legate al settore d'interesse.
-  ** Il processo di analisi tramite data stewart verrà presentanto sotto forma di immagini, per offrire una visualizzazione quanto più possibile chiara ed evidente dei dati emersi e dei criteri di ricerca adoperati.
-* Successivamente, verificata la presenza di aspetti relativi al settore d'interesse, 
+I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/ggdrll/esame/tree/main/docs/fonti): la scansione digitale in formato `.txt` di una guida delle chiese di Roma risalente agli inizi del XX secolo. 
+
+![copertina-Tani](https://www.picclickimg.com/6lwAAOSws9liaRzd/Le-Chiese-Di-Roma-Tani-A-D.webp)
+
+* Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare quanti e quali siano i riferimenti relativi ad _archivi_, _biblioteche_, _codici_, _libri_, _documenti_ e _persone legate al settore d'interesse_.
+  ** Il processo di analisi tramite data stewart verrà presentanto sotto forma di [immagini](https://github.com/ggdrll/esame/tree/main/docs/viz), per offrire una visualizzazione quanto più possibile chiara ed evidente dei dati emersi e dei criteri di ricerca adoperati.
+  
+* Successivamente, verificata la presenza di aspetti relativi al settore d'interesse, si procederà con l'estrazione dei dati e la loro strutturazione in froma tabellare attraverso Excel.
+ * Le tabelle riporteranno:
+      * i dati cronotopici relativi alla chiesa a cui appartiene/apparteneva la realtà documentaria;
+      * la tipologia di realtà documentaria presente (archivio/biblioteca/entrambi);
+      * i dati cronotopici relativi alla realtà documentaria;
+      * le informazioni sulle vicende e sulle condizioni conservative della realtà documentaria;
+      * i dati relativi al contenuto della realtà documentaria e alle figure del settore archivistico-librario collegate ad essa o alla chiesa.
 
 
 ## Documentazione e qualità dei dati
@@ -33,8 +44,7 @@ I dati raccolti nel progetto provengono da un'unica fonte: la scansione digitale
 
 ## Backup e archiviazione
 
-- Come saranno archiviati e salvati i dati e i metadati durante la ricerca?
-- Come sarà gestita la sicurezza dei dati e la protezione dei dati sensibili durante la ricerca?
+Durante la ricerca, dati e metadati saranno archiviati e salvati su OneDrive, in locale e all'interno della repository GitHub.
 
 ## Requisiti legali ed etici
 
