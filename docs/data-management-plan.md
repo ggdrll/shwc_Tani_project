@@ -24,7 +24,7 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
 ![copertina-Tani](https://www.picclickimg.com/6lwAAOSws9liaRzd/Le-Chiese-Di-Roma-Tani-A-D.webp)
 
 * Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare quanti e quali siano i riferimenti relativi ad _archivi_, _biblioteche_, _codici_, _libri_, _documenti_ e _persone legate al settore d'interesse_.
-  ** Il processo di analisi tramite data stewart verrà presentanto sotto forma di [immagini](https://github.com/ggdrll/esame/tree/main/docs/viz), per offrire una visualizzazione quanto più possibile chiara ed evidente dei dati emersi e dei criteri di ricerca adoperati.
+   * Il processo di analisi tramite data stewart verrà presentanto sotto forma di [immagini](https://github.com/ggdrll/esame/tree/main/docs/viz), per offrire una visualizzazione quanto più possibile chiara ed evidente dei dati emersi e dei criteri di ricerca adoperati.
   
 * Successivamente, verificata la presenza di aspetti relativi al settore d'interesse, si procederà con l'estrazione dei dati e la loro strutturazione in froma tabellare attraverso Excel.
  * Le tabelle riporteranno:
