@@ -33,7 +33,7 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
       * la tipologia di complesso documentario presente (archivio/biblioteca/entrambi);
       * i dati cronotopici relativi al complesso documentario;
       * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario;
-      * i dati relativi al contenuto del complesso documentario e alle figure del settore archivistico-librario collegate ad essa o alla chiesa.
+      * i dati relativi al contenuto del complesso documentario e alle figure ad esso collegate.
 
 
 ## Documentazione e qualità dei dati
