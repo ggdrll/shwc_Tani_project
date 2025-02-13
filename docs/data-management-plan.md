@@ -29,10 +29,10 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
 * Successivamente, verificata la presenza di aspetti relativi al settore d'interesse, si procederà con l'estrazione dei dati e la loro strutturazione in froma tabellare attraverso Excel.
  * Le tabelle riporteranno:
       * i dati cronotopici relativi alla chiesa a cui appartiene/apparteneva la realtà documentaria;
-      * la tipologia di realtà documentaria presente (archivio/biblioteca/entrambi);
-      * i dati cronotopici relativi alla realtà documentaria;
-      * le informazioni sulle vicende e sulle condizioni conservative della realtà documentaria;
-      * i dati relativi al contenuto della realtà documentaria e alle figure del settore archivistico-librario collegate ad essa o alla chiesa.
+      * la tipologia di complesso documentario presente (archivio/biblioteca/entrambi);
+      * i dati cronotopici relativi al complesso documentario;
+      * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario;
+      * i dati relativi al contenuto del complesso documentario e alle figure del settore archivistico-librario collegate ad essa o alla chiesa.
 
 
 ## Documentazione e qualità dei dati
