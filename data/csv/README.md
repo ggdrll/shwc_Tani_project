@@ -1,8 +1,8 @@
 # Dataset tabellari
 
 ## Indice
-1. [Dataset Tani Originale](#DatasetTaniOriginale)
-2. [Dataset Tani Refined](#DatasetTaniRefined)
+1. [Dataset Tani Originale](#dataset-tani-originale)
+2. [Dataset Tani Refined](#dataset-tani-refined)
 
 ## Dataset Tani Originale
 
