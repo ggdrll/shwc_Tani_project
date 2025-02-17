@@ -1,18 +1,50 @@
 # Dataset tabellari
 
 ## Indice
-1. [Tani non pulito](#DatasetTani)
-2. Tani pulito
+1. [Dataset Tani Originale](#DatasetTaniOriginale)
+2. [Dataset Tani Refined](#DatasetTaniRefined)
 
-## Dataset Tani
+## Dataset Tani Originale
 
 ### Nome del file
-dataset_tani.csv
+`datasetTani_og.csv`
 
 ### Descrizione
-Dataset contenente i dati di.
+Dataset contenente i dati estratti a seguito del lavoro di analisi svolto con Voyant Tools. Una volta verificata nell'opera l'esistenza di riferimenti ad archivi e biblioteche, i dati in merito sono stati modellati in forma tabellare.
 
 ### Struttura
-* **Numero di righe**:
+* **Numero di righe**: 11
+* **Numero di colonne**: 9
+* **Colonne**:
+  * `nome_chiesa` : nome della chiesa contenente il complesso documentario;
+  * `altri_nomi` : altri nomi con cui è nota la chiesa contenente il complesso documentario;
+  * `estremi_cronologici` : data di costruzione e data dell'ultimo intervento apportato all'edificio della chiesa contenente il complesso documentario;
+  * `posizione_chiesa` : posizione geografica della chiesa contenente il complesso documentario;
+  * `complesso_doc_tipo` : tipologia del complesso documentario contenuto nella chiesa (archivio/biblioteca/entrambi)
+  * `complesso_doc_posizione` : posizione ultima del complesso documentario all'interno della chiesa;
+  * `complesso_doc_vita` : condizioni ultime e vicende conservative del complesso documentario all'interno della chiesa;
+  * `complesso_doc_contenuto` : elementi contenuti nel complesso documentario citati dalla guida;
+  * `complesso_doc_personaggi` : personaggi storici legati al complesso documentario.
+
+
+## Dataset Tani Refined
+
+### Nome del file
+`datasetTani_rfnd.csv`
+
+### Struttura
+* **Numero di righe**: 
 * **Numero di colonne**: 
 * **Colonne**:
+  * `nome_chiesa` : nome della chiesa contenente il complesso documentario;
+  * `altri_nomi` : altri nomi con cui è nota la chiesa contenente il complesso documentario;
+  * `estremi_cronologici` : data di costruzione e data dell'ultimo intervento apportato all'edificio della chiesa contenente il complesso documentario;
+  * `posizione_chiesa` : posizione geografica della chiesa contenente il complesso documentario;
+  * `complesso_doc_tipo` : tipologia del complesso documentario contenuto nella chiesa (archivio/biblioteca/entrambi)
+  * `complesso_doc_posizione` : posizione ultima del complesso documentario all'interno della chiesa;
+  * `complesso_doc_vita` : condizioni ultime e vicende conservative del complesso documentario all'interno della chiesa;
+  * `complesso_doc_contenuto` : elementi contenuti nel complesso documentario citati dalla guida;
+  * `complesso_doc_personaggi` : personaggi storici legati al complesso documentario.
+
+
+  
