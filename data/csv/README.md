@@ -32,6 +32,9 @@ Dataset contenente i dati estratti a seguito del lavoro di analisi svolto con Vo
 ### Nome del file
 `datasetTani_refind.csv`
 
+### Descrizione
+Il dataset originale è stato sottoposto a un lavoro di pulizia tramite Openrefine.
+
 ### Struttura
 * **Numero di righe**: 11
 * **Numero di colonne**: 10
