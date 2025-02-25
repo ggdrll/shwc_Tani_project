@@ -36,8 +36,6 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
   * i dati relativi al contenuto del complesso documentario e ai personaggi storici ad esso collegati.
 * I dati modellati in forma tabellare verranno esportati in formato `.csv` per essere puliti tramite Openrefine. La pulizia prevederà:
      * la correzione di eventuali errori grammaticali;
-     * l'adozione di un unico formato comune per gli estremi cronologici;
-     * la separazione di dati combinati insieme in caselle individuali;
      * la normalizzazione di termini diversi ma relativi alla stessa entità;
      * la riconciliazione di dati a fonti esterne tramite [VIAF](https://viaf.org/en).
   
