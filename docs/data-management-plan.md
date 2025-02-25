@@ -8,7 +8,7 @@
 3. Tabellazione dei dati in [Excel](https://www.microsoft.com/it-it/microsoft-365/excel?market=it).
 4. Conversione dei dati in formato `.csv`.
 5. Pulizia dei dati tramite [Openrefine](https://openrefine.org/).
-6. Esportazione dei dati puliti in formato `.json`.
+6. Esportazione dei dati puliti in formato `.csv`.
 7. Modellazione in RDF attraverso l'utilizzo di ontologie esistenti.
 
 
