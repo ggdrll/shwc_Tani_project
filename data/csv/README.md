@@ -33,10 +33,11 @@ Dataset contenente i dati estratti a seguito del lavoro di analisi svolto con Vo
 `datasetTani_rfnd.csv`
 
 ### Struttura
-* **Numero di righe**: 
-* **Numero di colonne**: 
+* **Numero di righe**: 10
+* **Numero di colonne**: 10
 * **Colonne**:
   * `nome_chiesa` : nome della chiesa contenente il complesso documentario;
+  * `chiesa_id` : URL di riconciliazione della chiesa a fonti esterne; 
   * `altri_nomi` : altri nomi con cui è nota la chiesa contenente il complesso documentario;
   * `estremi_cronologici` : data di costruzione e data dell'ultimo intervento apportato all'edificio della chiesa contenente il complesso documentario;
   * `posizione_chiesa` : posizione geografica della chiesa contenente il complesso documentario;
@@ -46,5 +47,3 @@ Dataset contenente i dati estratti a seguito del lavoro di analisi svolto con Vo
   * `complesso_doc_contenuto` : elementi contenuti nel complesso documentario citati dalla guida;
   * `complesso_doc_personaggi` : personaggi storici legati al complesso documentario.
 
-
-  
