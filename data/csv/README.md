@@ -33,7 +33,7 @@ Dataset contenente i dati estratti a seguito del lavoro di analisi svolto con Vo
 `datasetTani_refind.csv`
 
 ### Struttura
-* **Numero di righe**: 10
+* **Numero di righe**: 11
 * **Numero di colonne**: 10
 * **Colonne**:
   * `nome_chiesa` : nome della chiesa contenente il complesso documentario;
