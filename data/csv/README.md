@@ -30,7 +30,7 @@ Dataset contenente i dati estratti a seguito del lavoro di analisi svolto con Vo
 ## Dataset Tani Refined
 
 ### Nome del file
-`datasetTani_rfnd.csv`
+`datasetTani_refind.csv`
 
 ### Struttura
 * **Numero di righe**: 10
