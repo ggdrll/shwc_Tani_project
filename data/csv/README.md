@@ -10,7 +10,7 @@
 `datasetTani_og.csv`
 
 ### Descrizione
-Dataset contenente i dati estratti a seguito del lavoro di analisi svolto con Voyant Tools. Una volta verificata nell'opera l'esistenza di riferimenti ad archivi e biblioteche, i dati in merito sono stati modellati in forma tabellare.
+Dataset originale contenente i dati estratti a seguito del lavoro di analisi svolto con Voyant Tools. Una volta verificata nell'opera l'esistenza di riferimenti ad archivi e biblioteche, i dati in merito sono stati modellati in forma tabellare.
 
 ### Struttura
 * **Numero di righe**: 11
