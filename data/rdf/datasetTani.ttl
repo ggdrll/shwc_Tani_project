@@ -1,0 +1,50 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fabio:  <http://purl.org/spar/fabio> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+schema:Church rdfs:label "Santi Giovanni e Paolo" ;
+    schema:containsPlace schema:Library .
+
+schema:Church rdfs:label "Sant'Agostino" ;
+    schema:containsPlace schema:Library .
+schema:Library dcterms:description "Buone condizioni, conservata dallo Stato" .
+
+schema:Church rdfs:label "San Lorenzo al Verano" ;
+    schema:containsPlace schema:Library .
+schema:Library dcterms:description "Distrutta a causa dell'invasione gotica del VI sec" .
+
+schema:Church rdfs:label "San Marco" ;
+    schema:containsPlace  fabio:ArchivalRecordSet .
+fabio:ArchivalRecordSet dcterms:description "Distrutto e disperso quasi totalmente a causa di varie alluvioni, del sacco del 152 e dei sequestri rivoluzionari del 1798" .
+
+schema:Church rdfs:label "Santa Croce in Gerusalemme" ;
+    schema:containsPlace schema:Library .
+schema:Library dcterms:description "Conservata dallo Stato" .
+
+schema:Church rdfs:label "San Lorenzo in Damaso" ;
+    schema:containsPlace fabio:ArchivalRecordSet .
+fabio:ArchivalRecordSet dcterms:type "Archivi della Chiesa" ;
+    dcterms:description "Trasferiti al Laterano nell'VII secolo" .
+fabio:ArchivalRecordSet dcterms:type "archivio della basilica" ;
+    dcterms:description "Bruciato nel sacco del 1527" .
+
+schema:Church rdfs:label "San Paolo" ;
+    schema:containsPlace fabio:ArchivalRecordSet ;
+    schema:containsPlace schema:Library .
+fabio:ArchivalRecordSet dcterms:description "Parzialmente disperso a causa di trasferimenti" .
+
+schema:Church rdfs:label "Santa Trinità a Sant'Apollinare" ;
+    schema:containsPlace schema:Library .
+schema:Library  dcterms:description "Dispersa a causa dei sequestri rivoluzionari del 1798" .
+
+schema:Church rdfs:label "Santa Maria in Via Lata" ;
+    schema:containsPlace fabio:ArchivalRecordSet .
+fabio:ArchivalRecordSet dcterms:description "Buone condizioni" .
+
+schema:Church rdfs:label "San Pietro al Vaticano" ;
+    schema:containsPlace fabio:ArchivalRecordSet .
+fabio:ArchivalRecordSet dcterms:description "Buone condizioni ma parzialmente disperso a causa dei sacchi dei Longobardi nel VII e nell'XI sec, del sacco del 1527 e dei sequestri rivoluzionari del 1798" .
+
+
