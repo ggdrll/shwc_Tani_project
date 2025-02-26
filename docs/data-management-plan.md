@@ -38,6 +38,9 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
      * la correzione di eventuali errori grammaticali;
      * la normalizzazione di termini diversi ma relativi alla stessa entità;
      * la riconciliazione di dati a fonti esterne tramite [VIAF](https://viaf.org/en).
+ 
+
+* Infine, il progetto mirerà a una modellazione dei dati puliti in formato RDF Turtle tramite l'utilizzo di ontologie esistenti.
   
 
 
@@ -51,7 +54,13 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
 
 ## Backup e archiviazione
 
-Durante la ricerca, dati e metadati saranno archiviati e salvati su OneDrive, in locale e all'interno della repository GitHub.
+Durante la ricerca, dati e metadati saranno archiviati e salvati su OneDrive, in locale e all'interno della repository GitHub. La repository sarà articolata secondo la seguente struttura:
+* cartella `docs`, contenente il DMP e 2 sottocartelle:
+   * `fonti`, all'interno della quale si troveranno l'opera-fonte in formato `.txt` e il dataset originale in formato `.xlsx`;
+   * `viz`, all'interno della quale si troveranno le visualizzazioni in formato `.png` e dati ad esse relativi in formato `.xslx`, frutto del processo di analisi preliminare;
+* cartella `data`, contente 2 sottocartelle:
+   * `csv`, contente i dataset tabellari in formato `.csv` (prima e dopo la pulizia);
+   * `rdf`, contente la modellazione dei dati puliti in formato `.ttl`. 
 
 ## Requisiti legali ed etici
 
@@ -60,7 +69,7 @@ Durante la ricerca, dati e metadati saranno archiviati e salvati su OneDrive, in
 
 ## Condivisione dei dati e conservazione a lungo termine
 
-- Come e quando i dati saranno condivisi? Ci sono possibili restrizioni alla condivisione dei dati o motivi di embargo?
+- I dati saranno condivisi al termine del progetto attraverso l'apertura della repository GitHub e il caricamento su Zenodo.
 - I metadati saranno resi disponibili apertamente? Sotto quale licenza saranno pubblicati?
 - Come saranno selezionati i dati per la conservazione e dove saranno conservati a lungo termine (ad esempio un repository di dati o un archivio)?
 - Quali metodi o strumenti software sono necessari per accedere e utilizzare i dati?
