@@ -20,7 +20,7 @@ L'intento complessivo è quello di estrarre dal testo puro dei dati il più poss
 
 ## Descrizione dei dati
 
-I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/ggdrll/esame/tree/main/docs/fonti): la scansione digitale in formato `.txt` di una guida delle chiese di Roma risalente agli inizi del XX secolo. 
+I dati raccolti nel progetto provengono dalla scansione digitale in formato `.txt` di una guida delle chiese di Roma risalente agli inizi del XX secolo. 
 
 ![copertina-Tani](https://www.picclickimg.com/6lwAAOSws9liaRzd/Le-Chiese-Di-Roma-Tani-A-D.webp)
 
@@ -28,25 +28,23 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
    * Il processo di analisi verrà presentanto sotto forma di [immagini](https://github.com/ggdrll/esame/tree/main/docs/viz), per offrire una visualizzazione quanto più possibile chiara ed evidente dei dati emersi e dei criteri di ricerca adoperati.
 
   
-* Successivamente, verificata la presenza di aspetti relativi al settore d'interesse, si procederà con l'estrazione dei dati e la loro strutturazione in forma tabellare attraverso Excel. La tabella riporterà:
+* Successivamente, verificata la presenza di aspetti relativi al settore d'interesse, si procederà con l'estrazione dei dati e la loro [strutturazione in forma tabellare](https://github.com/ggdrll/shwc_Tani_project/blob/main/docs/fonti/datasetTani_og.xlsx) attraverso Excel. La tabella riporterà:
   * i dati cronotopici relativi alla chiesa a cui appartiene/apparteneva la realtà documentaria;
   * la tipologia di complesso documentario presente (archivio/biblioteca/entrambi);
   * i dati cronotopici relativi al complesso documentario;
   * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario;
   * i dati relativi al contenuto del complesso documentario e ai personaggi storici ad esso collegati.
-* I dati modellati in forma tabellare verranno esportati in formato `.csv` per essere puliti tramite Openrefine. La pulizia prevederà:
+* I dati modellati in forma tabellare verranno [esportati in formato `.csv`](https://github.com/ggdrll/shwc_Tani_project/blob/main/data/csv/datasetTani_og.csv) per essere [puliti](https://github.com/ggdrll/shwc_Tani_project/blob/main/data/csv/datasetTani_refined.csv) tramite Openrefine. La pulizia prevederà:
      * la correzione di eventuali errori grammaticali;
      * la normalizzazione di termini diversi ma relativi alla stessa entità;
      * la riconciliazione di dati a fonti esterne tramite [VIAF](https://viaf.org/en).
  
 
-* Infine, il progetto mirerà a una modellazione dei dati puliti in formato RDF Turtle tramite l'utilizzo di modelli esistenti. I dati codificati in RDF riguarderanno sinteticamente le informazioni di contesto, non la documentazione nello specifico:
+* Infine, il progetto mirerà a una [modellazione](https://github.com/ggdrll/shwc_Tani_project/tree/main/data/rdf) dei dati puliti in formato RDF Turtle tramite l'utilizzo di ontologie esistenti. I dati codificati in RDF riguarderanno sinteticamente le informazioni di contesto, non la documentazione nello specifico, ossia:
    * le chiesa contenente il complesso documentario;
-   * la tipologia del complesso documentario;
+   * la tipologia del complesso documentario contenuto nella chiesa;
    * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario.
   
-
-
 
 ## Documentazione e qualità dei dati
 
@@ -55,9 +53,10 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
 - Quali standard verranno utilizzati? Verranno scelti standard per rendere i dati interoperabili?
 - Quali misure di controllo della qualità dei dati saranno utilizzate?
 
+
 ## Backup e archiviazione
 
-Durante la ricerca, dati e metadati saranno archiviati e salvati su OneDrive, in locale e all'interno della repository GitHub. La repository sarà articolata secondo la seguente struttura:
+Durante la ricerca, dati e metadati saranno archiviati e salvati su [OneDrive](https://liveunibo-my.sharepoint.com/:f:/g/personal/giulia_guidarelli3_studio_unibo_it/EvJFrbOEb19Jsbj3MTFjx3sB-jsAwoOrGzGj5pYHi0qaug?e=QkbzfH), in locale e all'interno della repository GitHub. La repository sarà articolata secondo la seguente struttura:
 * cartella `docs`, contenente il DMP e 2 sottocartelle:
    * `fonti`, all'interno della quale si troveranno l'opera-fonte in formato `.txt` e il dataset originale in formato `.xlsx`;
    * `viz`, all'interno della quale si troveranno le visualizzazioni in formato `.png` e dati ad esse relativi in formato `.xslx`, frutto del processo di analisi preliminare;
@@ -65,10 +64,12 @@ Durante la ricerca, dati e metadati saranno archiviati e salvati su OneDrive, in
    * `csv`, contente i dataset tabellari in formato `.csv` (prima e dopo la pulizia);
    * `rdf`, contente la modellazione dei dati puliti in formato `.ttl`. 
 
+
 ## Requisiti legali ed etici
 
 - Come saranno gestite altre questioni legali, come i diritti di proprietà intellettuale e la proprietà? Quale legislazione si applica?
 - Quali questioni etiche e codici di condotta ci sono e come saranno presi in considerazione?
+
 
 ## Condivisione dei dati e conservazione a lungo termine
 
