@@ -1,4 +1,4 @@
-# Tani's Hidden Treasures
+# Strangeways, here we come - Archivi e biblioteche delle chiese di Roma e loro vicende conservative  
 
 ## Descrizione
 Progetto di gestione dei dati riguardante le guide turistiche di Roma, realizzato ai fini dell'esame del corso di [Digital Humanities e Data Management per i Beni Culturali](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386).
