@@ -1,10 +1,7 @@
-# Dati Semantici
+# Dataset Semantici
 
-### Descrizione
-Dataset contenente prove di modellazione semantica dei dati relativi ai beni archivistico-librari contenuti nell'opera Tani A. D. (1922) Le chiese di Roma: guida storico-artistica. Chiese stazionali, Edizioni d'arte E. Celanza, Torino.
+## Descrizione
+Dataset contenente elementi relativi alle condizioni dei complessi documentari contenuti nelle chiese presenti nel [dataset Tani Refined](https://github.com/ggdrll/esame/blob/main/data/csv/datasetTani_refined.csv). I dati sono modellati in triple RDF.
 
-### Fonti
-- [
-
-### Formato
+## Formato
 Turtle RDF
