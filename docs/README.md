@@ -46,14 +46,6 @@ Una volta estratto il dataset pulito, si è optato per una **modellazione in RDF
 ---
 
 ## Preservazione e condivisione
-
-I dati sono stati salvati sia in locale sia in OneDrive prima di essere caricati su repository in GitHub. La repository è articolata secondo la seguente struttura:
-* cartella docs, contenente il DMP e 2 sottocartelle:
-   * fonti, all'interno della quale si trovano l'opera-fonte in formato .txt e il dataset originale in formato .xlsx;
-   * viz, all'interno della quale si trovano le visualizzazioni frutto del processo di analisi preliminare;
-* cartella data, contente 2 sottocartelle:
-   * csv, contente i dataset tabellari in formato .csv (prima e dopo la pulizia);
-   * rdf, contente la modellazione dei dati puliti in formato .ttl. 
   
   Per garantirne l'integrità, la disponibilità e l'accesibilità a lungo termine, formati, Zenodo, licenza libera.
   
