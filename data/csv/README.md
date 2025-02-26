@@ -40,7 +40,7 @@ Il dataset originale è stato sottoposto a un lavoro di pulizia tramite Openrefi
 * **Numero di colonne**: 10
 * **Colonne**:
   * `nome_chiesa` : nome della chiesa contenente il complesso documentario;
-  * `chiesa_id` : URL di riconciliazione della chiesa a fonti esterne; 
+  * `chiesa_id` : URL di riconciliazione della chiesa a fonti esterne tramite [VIAF](https://viaf.org/en); 
   * `altri_nomi` : altri nomi con cui è nota la chiesa contenente il complesso documentario;
   * `estremi_cronologici` : data di costruzione e data dell'ultimo intervento apportato all'edificio della chiesa contenente il complesso documentario;
   * `posizione_chiesa` : posizione geografica della chiesa contenente il complesso documentario;
