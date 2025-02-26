@@ -40,7 +40,11 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
      * la riconciliazione di dati a fonti esterne tramite [VIAF](https://viaf.org/en).
  
 
-* Infine, il progetto mirerà a una modellazione dei dati puliti in formato RDF Turtle tramite l'utilizzo di ontologie esistenti.
+* Infine, il progetto mirerà a una modellazione dei dati puliti in formato RDF Turtle tramite l'utilizzo di ontologie esistenti. I dati codificati in RDF riguarderanno sinteticamente:
+   * le chiesa contenente il complesso documentario;
+   * la tipologia del complesso documentario;
+   * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario;
+   * i dati relativi al contenuto del complesso documentario.
   
 
 
