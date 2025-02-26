@@ -9,7 +9,7 @@
 4. Conversione dei dati in formato `.csv`.
 5. Pulizia dei dati tramite [Openrefine](https://openrefine.org/).
 6. Esportazione dei dati puliti in formato `.csv`.
-7. Modellazione in RDF attraverso l'utilizzo di ontologie esistenti.
+7. Modellazione in RDF attraverso l'utilizzo di modelli esistenti.
 
 
 ## Introduzione
@@ -40,11 +40,10 @@ I dati raccolti nel progetto provengono da [un'unica fonte](https://github.com/g
      * la riconciliazione di dati a fonti esterne tramite [VIAF](https://viaf.org/en).
  
 
-* Infine, il progetto mirerà a una modellazione dei dati puliti in formato RDF Turtle tramite l'utilizzo di ontologie esistenti. I dati codificati in RDF riguarderanno sinteticamente:
+* Infine, il progetto mirerà a una modellazione dei dati puliti in formato RDF Turtle tramite l'utilizzo di modelli esistenti. I dati codificati in RDF riguarderanno sinteticamente le informazioni di contesto, non la documentazione nello specifico:
    * le chiesa contenente il complesso documentario;
    * la tipologia del complesso documentario;
-   * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario;
-   * i dati relativi al contenuto del complesso documentario.
+   * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario.
   
 
 
