@@ -13,6 +13,7 @@ Progetto di gestione dei dati realizzato ai fini dell'esame del corso di [Digita
 * [Voyant Tools](https://voyant-tools.org/)
 * [Microsoft Excel](https://www.microsoft.com/it-it/microsoft-365/excel?market=it)
 * [Openrefine](https://openrefine.org/)
+* [Visual Studio Code](https://vscode.dev/?vscode-lang=it-it)
 * RDF in Turtle
 
 ## Credits
