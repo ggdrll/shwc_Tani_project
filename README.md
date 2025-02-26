@@ -23,5 +23,5 @@ Giulia Guidarelli (https://orcid.org/0009-0008-4489-3978), Università di Bologn
 ## Changelog
 * 2025-02-09: creazione repository e cartelle *data* e *docs*
 * 2025-02-12: ultimo commit nella sottocartella *viz*
-* 2025-02-
-2025-02-
+* 2025-02-25: ultimo commit nella sottocartella *csv*
+* 2025-02-26: ultimo commit nella sottocartella *ttl*
