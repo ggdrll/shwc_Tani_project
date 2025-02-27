@@ -4,7 +4,7 @@
 * [Sommario esecutivo](#sommarioesecutivo)
 * [Introduzione](#introduzione)
 * [Descrizione dei dati](#descrizione-dei-dati)
-* [Documentazione e qualità dei dati](#documentazione-e-qualità-dei-dati)
+* [Documentazione e condivisione dei dati](#documentazione-e-condivisione-dei-dati)
 * [Backup e archiviazione](#backup-e-archiviazione)
 
 ## Sommario esecutivo
@@ -52,16 +52,16 @@ I dati raccolti nel progetto provengono dalla scansione digitale in formato `.tx
    * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario.
   
 
-## Documentazione e qualità dei dati
+## Documentazione e condivisione dei dati
 
-Il dataset in formato tabellare e il dataset semantico verranno identificati da un DOI assegnato attraverso il caricamento degli stessi su Zenodo. 
+Il dataset in formato tabellare e il dataset semantico verranno identificati da un DOI assegnato attraverso il caricamento degli stessi su Zenodo, dove il progetto sarà accessibile una volta conclusa la modellazione in RDF Turtle.
 I dati saranno di volta in volta descritti all'interno dei file README.md presenti in ogni cartella e sottocartella della repository; inoltre, i rimandi interni nella struttura della repository aiuteranno a seguire la loro filiera di raccolta e gestione.
 La scelta di formati come `.csv` e `.ttl` mira all'interoperabilità e al riuso dei dataset, così come la scelta della licenza `CC0 1.0 Universal`.
 
 
 ## Backup e archiviazione
 
-Durante la ricerca, dati e metadati saranno archiviati e salvati su [OneDrive](https://liveunibo-my.sharepoint.com/:f:/g/personal/giulia_guidarelli3_studio_unibo_it/EvJFrbOEb19Jsbj3MTFjx3sB-jsAwoOrGzGj5pYHi0qaug?e=QkbzfH), in locale e all'interno della repository GitHub. La repository sarà articolata secondo la seguente struttura:
+Durante la ricerca, dati e metadati saranno archiviati e salvati su [OneDrive](https://liveunibo-my.sharepoint.com/:f:/g/personal/giulia_guidarelli3_studio_unibo_it/EvJFrbOEb19Jsbj3MTFjx3sB-jsAwoOrGzGj5pYHi0qaug?e=QkbzfH), in locale e all'interno della repository GitHub. Il progetto sarà articolato secondo la seguente struttura:
 * cartella `docs`, contenente il DMP e 2 sottocartelle:
    * `fonti`, all'interno della quale si troveranno l'opera-fonte in formato `.txt` e il dataset originale in formato `.xlsx`;
    * `viz`, all'interno della quale si troveranno le visualizzazioni in formato `.png` e dati ad esse relativi in formato `.xslx`, frutto del processo di analisi preliminare;
