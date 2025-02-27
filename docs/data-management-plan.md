@@ -48,7 +48,7 @@ I dati raccolti nel progetto provengono dalla scansione digitale in formato `.tx
 
 ## Documentazione e qualità dei dati
 
-- I dati verranno identificati da identificativi persistenti?
+Il dataset in formato tabellare pulito e il dataset semantico verranno identificati da identificativi persistenti assegnati da Zenodo.
 - Quali metadati e documentazione (ad esempio la metodologia di raccolta dei dati e il modo di organizzare i dati) accompagneranno i dati?
 - Quali standard verranno utilizzati? Verranno scelti standard per rendere i dati interoperabili?
 - Quali misure di controllo della qualità dei dati saranno utilizzate?
