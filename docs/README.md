@@ -1,4 +1,4 @@
-# Titolo del progetto
+# Strangeways, here we come - Vicende conservative di archivi e biblioteche nelle chiese di Roma
 
 ## Indice
 - [Introduzione](#introduzione)
@@ -21,7 +21,7 @@ L'intento complessivo è quello di estrarre dal testo puro dei dati il più poss
 
 * In termini di dati, il progetto si è proposto in primis di verificare _la presenza_, all'interno della fonte impiegata, di elementi d'interesse archivistico-librario.
 * In particolare, data la natura stessa della guida, si è pianificato di rivolgere l'attenzione soprattutto alle informazioni concernenti _le vicende storico-culturali che avevano coinvolto non tanto le singole chiese, quanto più specificatamente il complesso documentario che esse accoglievano_. Tale requisito è stato definito per far sì che i dati emersi dal progetto potessero risultare effettivamente utili a ricostruire le vicende specifiche dei complessi documentari, e quindi verificare lo stato di conservazione dei materiali in essi contenuti alla data di pubblicazione dell'opera-fonte. Naturalmente, ne è derivata la necessità di puntare a estrarre anche i dati relativi ai singoli elementi contenuti negli archivi e nelle biblioteche citate: ciò ha significato, preliminarmente, individuare all'interno del testo le informazioni relative a libri, codici, manoscritti, documenti di varia natura, nonché alle figure storiche legate ai complessi documentari.
-* In definitiva, nel processo di selezione dei dati, l'accento è stato posto sulle informazioni di *contesto*, che rappresentano un aspetto fondamentale soprattutto per la disciplina archivistica.
+* In definitiva, l'accento è stato posto sui dati relativi alle informazioni di *contesto*, che rappresentano un aspetto fondamentale soprattutto per la disciplina archivistica.
 
 ---
 
@@ -41,7 +41,21 @@ Una volta creato il dataset tabellare in formato `.csv`, esso è stato sottopost
 * verificare la presenza di termini diversi utilizzati per la stessa entità e normalizzarli;
 * riconciliare i dati a fonti esterne tramite VIAF. L'attività di riconciliazione ha coinvolto le chiese e non il patrimonio archivistico-librario specifico per permettere, eventualmente, la successiva integrazione dello stesso dataset attraverso fonti più ampie, più ricche e più aggiornate.
 
-Una volta estratto il dataset pulito, si è optato per una **modellazione in RDF Turtle**. 
+Una volta estratto il dataset tabellare pulito, si è optato per una **modellazione semantica** dei dati relativi alle condizioni e alle vicende dei complessi documentari. 
+* Le classi estratte sono le seguenti:
+   * Church
+   * Library
+   * 
+* Le proprietà estratte sono le seguenti:
+   * contains
+   * 
+* I modelli sono stati tratti da ontologie esistenti quali:
+   * [Dublin Core Terms](http://purl.org/dc/terms/);
+   * [Schema.org](http://schema.org/);
+   * [FaBio](http://purl.org/spar/fabio);
+   * [W3C](https://www.w3.org/TR/rdf12-schema/).
+
+
 
 ---
 
