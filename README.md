@@ -24,8 +24,9 @@ Giulia Guidarelli (https://orcid.org/0009-0008-4489-3978), Università di Bologn
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
 
 ## Changelog
-* 2025-02-09: creazione repository e cartelle `data` e `docs`
+* 2025-02-09: creazione delle repository e delle cartelle `data` e `docs`
 * 2025-02-12: ultima aggiunta nella sottocartella `viz`
-* 2025-02-25: ultima aggiunta nella sottocartella `csv`
+* 2025-02-25: ultima aggiunta nella sottocartella `fonti` e nella sottocartella `csv`
 * 2025-02-26: ultima aggiunta nella sottocartella `rdf`
 * 2025-02-26: ultimo commit nella sottocartella `ttl` e pubblicazione della repository
+* 2025-02-27: pubblicazione su Zenodo dei dataset e aggiornamento README.md/docs e DMP
