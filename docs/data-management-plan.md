@@ -1,15 +1,21 @@
-# Esame - Data Management Plan
+# shwc_tani_project - Data Management Plan
 
+## Indice
+* [Sommario esecutivo](#sommarioesecutivo)
+* [Introduzione](#introduzione)
+* [Descrizione dei dati](#descrizione-dei-dati)
+* [Documentazione e qualità dei dati](#documentazione-e-qualità-dei-dati)
+* [Backup e archiviazione](#backup-e-archiviazione)
 
 ## Sommario esecutivo
 
 1. Analisi quantitativa e qualitativa dei dati attraverso [Voyant Tools](https://voyant-tools.org/).
-2. Estrazione dei dati relativi al patrimonio archivistico-librario.
-3. Tabellazione dei dati in [Excel](https://www.microsoft.com/it-it/microsoft-365/excel?market=it).
+2. Estrazione dei dati relativi al patrimonio archivistico-librario e tabellazione degli stessi in [Excel](https://www.microsoft.com/it-it/microsoft-365/excel?market=it).
 4. Conversione dei dati in formato `.csv`.
 5. Pulizia dei dati tramite [Openrefine](https://openrefine.org/).
 6. Esportazione dei dati puliti in formato `.csv`.
-7. Modellazione in RDF attraverso l'utilizzo di modelli esistenti.
+7. Modellazione in RDF Turtle attraverso l'utilizzo di modelli esistenti.
+8. Caricamento dei dataset in formato `.csv` e in formato `.ttl` su [Zenodo](https://zenodo.org/).
 
 
 ## Introduzione
@@ -24,7 +30,7 @@ I dati raccolti nel progetto provengono dalla scansione digitale in formato `.tx
 
 ![copertina-Tani](https://www.picclickimg.com/6lwAAOSws9liaRzd/Le-Chiese-Di-Roma-Tani-A-D.webp)
 
-* Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare quanti e quali siano i riferimenti relativi ad _archivi_, _biblioteche_, _codici_, _libri_, _documenti_ e _personaggi storici ad essi collegate_.
+* Il testo sarà sottoposto innanzitutto a un processo di analisi, al fine di comprenderne adeguatamente il contenuto e poter individuare quanti e quali siano i riferimenti relativi ad _archivi_, _biblioteche_, _codici_, _libri_, _documenti_ e _personaggi storici collegati ai complessi documentari citati_.
    * Il processo di analisi verrà presentanto sotto forma di [immagini](https://github.com/ggdrll/esame/tree/main/docs/viz), per offrire una visualizzazione quanto più possibile chiara ed evidente dei dati emersi e dei criteri di ricerca adoperati.
 
   
@@ -40,7 +46,7 @@ I dati raccolti nel progetto provengono dalla scansione digitale in formato `.tx
      * la riconciliazione di dati a fonti esterne tramite [VIAF](https://viaf.org/en).
  
 
-* Infine, il progetto mirerà a una [modellazione](https://github.com/ggdrll/shwc_Tani_project/tree/main/data/rdf) dei dati puliti in formato RDF Turtle tramite l'utilizzo di ontologie esistenti. I dati codificati in RDF riguarderanno sinteticamente le informazioni di contesto, non la documentazione nello specifico, ossia:
+* Infine, il progetto mirerà a una [modellazione](https://github.com/ggdrll/shwc_Tani_project/tree/main/data/rdf) dei dati puliti in formato RDF Turtle tramite l'utilizzo di ontologie esistenti per garantire l'interoperabilità. I dati codificati in RDF riguarderanno sinteticamente le informazioni di contesto, non la documentazione nello specifico, ossia:
    * le chiesa contenente il complesso documentario;
    * la tipologia del complesso documentario contenuto nella chiesa;
    * le informazioni sulle vicende e sulle condizioni conservative del complesso documentario.
@@ -48,10 +54,9 @@ I dati raccolti nel progetto provengono dalla scansione digitale in formato `.tx
 
 ## Documentazione e qualità dei dati
 
-Il dataset in formato tabellare pulito e il dataset semantico verranno identificati da identificativi persistenti assegnati da Zenodo.
-- Quali metadati e documentazione (ad esempio la metodologia di raccolta dei dati e il modo di organizzare i dati) accompagneranno i dati?
-- Quali standard verranno utilizzati? Verranno scelti standard per rendere i dati interoperabili?
-- Quali misure di controllo della qualità dei dati saranno utilizzate?
+Il dataset in formato tabellare e il dataset semantico verranno identificati da un DOI assegnato attraverso il caricamento degli stessi su Zenodo. 
+I dati saranno di volta in volta descritti all'interno dei file README.md presenti in ogni cartella e sottocartella della repository; inoltre, i rimandi interni nella struttura della repository aiuteranno a seguire la loro filiera di raccolta e gestione.
+La scelta di formati come `.csv` e `.ttl` mira all'interoperabilità e al riuso dei dataset, così come la scelta della licenza `CC0 1.0 Universal`.
 
 
 ## Backup e archiviazione
@@ -63,18 +68,3 @@ Durante la ricerca, dati e metadati saranno archiviati e salvati su [OneDrive](h
 * cartella `data`, contente 2 sottocartelle:
    * `csv`, contente i dataset tabellari in formato `.csv` (prima e dopo la pulizia);
    * `rdf`, contente la modellazione dei dati puliti in formato `.ttl`. 
-
-
-## Requisiti legali ed etici
-
-- Come saranno gestite altre questioni legali, come i diritti di proprietà intellettuale e la proprietà? Quale legislazione si applica?
-- Quali questioni etiche e codici di condotta ci sono e come saranno presi in considerazione?
-
-
-## Condivisione dei dati e conservazione a lungo termine
-
-- I dati saranno condivisi al termine del progetto attraverso l'apertura della repository GitHub e il caricamento su Zenodo.
-- I metadati saranno resi disponibili apertamente? Sotto quale licenza saranno pubblicati?
-- Come saranno selezionati i dati per la conservazione e dove saranno conservati a lungo termine (ad esempio un repository di dati o un archivio)?
-- Quali metodi o strumenti software sono necessari per accedere e utilizzare i dati?
-- Come sarà garantita l'applicazione di un identificatore unico e persistente (come un Digital Object Identifier (DOI)) a ciascun set di dati?
