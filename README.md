@@ -15,6 +15,7 @@ Progetto di gestione dei dati realizzato ai fini dell'esame del corso di [Digita
 * [Openrefine](https://openrefine.org/)
 * [Visual Studio Code](https://vscode.dev/?vscode-lang=it-it)
 * RDF in Turtle
+* [Zenodo](https://zenodo.org/)
 
 ## Credits
 Giulia Guidarelli (https://orcid.org/0009-0008-4489-3978), Università di Bologna
