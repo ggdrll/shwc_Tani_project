@@ -10,6 +10,8 @@ La cartella contiene le visualizzazioni dei dati estratti tramite [Voyant Tools]
   * [bubblelines_art](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_art.png): la visualizzazione di frequenza e distribuzione delle prime **10 parole inerenti a elementi artistici e architettonici individuate dalla sottoscritta** entro le 50 parole più utilizzate nel documento, **escluse le stopwords individuate dallo strumento per la lingua italiana e altre integrate dalla sottoscritta**;
   * [bubblelines_archives-libraries](https://github.com/ggdrll/esame/blob/main/docs/viz/bubblelines_archives-libraries.png): la visualizzazione di frequenza e distribuzione delle **parole inerenti a elementi archivistico-librari, selezionate dalla sottoscritta**.
 
+![og_cirrus](og_cirrus.png)
+
 
 ## Tabelle
 
