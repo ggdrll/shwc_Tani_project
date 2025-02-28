@@ -2,10 +2,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio:  <http://purl.org/spar/fabio> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/> .
 
 
-schema:Church rdfs:label "Santi Giovanni e Paolo" ;
-    schema:containsPlace schema:Library .
+ex:santi-giovanni-paolo a schema:Church ;
+    rdfs:label "Santi Giovanni e Paolo" ;
+    schema:containsPlace ex:library1 .
+
+ex:library1 a schema:Library .
 
 schema:Church rdfs:label "Sant'Agostino" ;
     schema:containsPlace schema:Library .
